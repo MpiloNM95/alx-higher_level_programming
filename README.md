@@ -30,3 +30,13 @@
 <li>Task 12: Fizz Buzz</li>
 <li>Task 13: Insert in sorted linked list</li>
 </ul>
+
+<h4>0x02. Python - import & modules</h4>
+<ul>
+<li>Task 0: Import a simple function from a simple file</li>
+<li>Task 1: My first toolbox!</li>
+<li>Task 2: How to make a script dynamic!</li>
+<li>Task 3: Infinite addition</li>
+<li>Task 4: Who are you?</li>
+<li>Task 5: Everything can be imported</li>
+</ul>
