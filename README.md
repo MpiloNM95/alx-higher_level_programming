@@ -87,3 +87,11 @@
 * Task 4: Access and update private attribute
 * Task 5: Printing a square
 * Task 6: Coordinates of a square
+
+### 0x07. Python - Test-Driven Development
+* Task 0: Integers addition
+* Task 1: Divide a matrix
+* Task 2: Say my name
+* Task 3: Print square
+* Task 4: Text indentation
+* Task 5: Max integer - Unittest
