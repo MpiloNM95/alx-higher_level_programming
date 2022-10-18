@@ -95,3 +95,46 @@
 * Task 3: Print square
 * Task 4: Text indentation
 * Task 5: Max integer - Unittest
+
+### 0x08. Python - More Classes and Objects
+* Task 0: Simple rectangle
+* Task 1: Real definition of a rectangle
+* Task 2: Area and Perimeter
+* Task 3: String representation
+* Task 4: Eval is magic
+* Task 5: Detect instance deletion
+* Task 6: How many instances
+* Task 7: Change representation
+* Task 8: Compare rectangles
+* Task 9: A square is a rectangle
+
+### 0x09. Python - Everything is object
+* Task 0: Who am I?
+* Task 1: Where are you?
+* Task 2: Right count
+* Task 3: Right count =
+* Task 4: Right count =
+* Task 5: Right count =+
+* Task 6: Is equal
+* Task 7: Is the same 
+* Task 8: Is really equal
+* Task 9: Is really the same
+* Task 10: And with a list, is it equal
+* Task 11: And with a list, is it the same
+* Task 12: And with a list, is it really equal
+* Task 13: And with a list, is it really the same
+* Task 14: List append
+* Task 15: List add
+* Task 16: Integer incrementation
+* Task 17: List incrementation
+* Task 18: List assignation
+* Task 19: Copy a list object
+* Task 20: Tuple or not?
+* Task 21: Tuple or not?
+* Task 22: Tuple or not?
+* Task 23: Tuple or not?
+* Task 24: Who I am?
+* Task 25: Tuple or not
+* Task 26: Empty is not empty
+* Task 27: Still the same?
+* Task 28: Same or not?
