@@ -1,40 +1,21 @@
 #!/usr/bin/python3
-"""
-Module that defines function that prints a text
-with 2 new lines after each of these characters: ., ? and :.
-There should be no space at the beginning or at the end of each printed line
-"""
+"""Defines a square-printing function."""
 
 
-def text_indentation(text):
+def print_square(size):
+    """Print a square with the # character.
+
+    Args:
+        size (int): The height/width of the square.
+    Raises:
+        TypeError: If size is not an integer.
+        ValueError: If size is < 0
     """
-    text must be a string.
-    function that prints a text with 2 new lines after ., ? and :."""
+    if not isinstance(size, int):
+        raise TypeError("size must be an integer")
+    if size < 0:
+        raise ValueError("size must be >= 0")
 
-    if type(text) is not str:
-        raise TypeError('text must be a string')
-
-    l = len(text)
-    i = 0
-    if text[0] == " ":
-        while text[i] == " ":
-            i += 1
-    while i < l:
-        if text[i] == " " and text[i - 1] == ".":
-            while text[i] == " ":
-                i += 1
-        if text[i] == " " and text[i - 1] == "?":
-            while text[i] == " ":
-                i += 1
-        if text[i] == " " and text[i - 1] == ":":
-            while text[i] == " ":
-                i += 1
-        if text[i] == " " and text[i - 1] == "\n":
-            while text[i] == " ":
-                i += 1
-        if text[i] == "." or text[i] == "?" or text[i] == ":":
-            print("{}".format(text[i]))
-            print("")
-        else:
-            print("{}".format(text[i]), end="")
-        i += 1
+    for i in range(size):
+        [print("#", end="") for j in range(size)]
+        print("")
