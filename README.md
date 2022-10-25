@@ -152,3 +152,18 @@
 * Task 9: Full Rectangle
 * Task 10: Square #1
 * Task 11: Square #2
+
+### 0x0B. Python - Input/Output
+* Task 0: Read file
+* Task 1: Write to a file
+* Task 2: Append to a file
+* Task 3: To JSON string
+* Task 4: From JSON String to Object
+* Task 5: Save Object to a file
+* Task 6: Create objectfrom a JSON file
+* Task 7: Load, add, save
+* Task 8: Class to JSON
+* Task 9: Student to JSON
+* Task 10: Student to JSON with filter
+* Task 11: Student to disk and reload
+* Task 12: Pascal's Triangle
