@@ -26,3 +26,8 @@ class Rectangle(Base):
         self.x = x
         self.y = y
         super().__init__(id)
+
+    @property
+    def width(self):
+        """Set/get the width of the Rectangle."""
+        return self.__width
