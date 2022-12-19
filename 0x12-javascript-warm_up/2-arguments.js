@@ -1,5 +1,5 @@
 #!/usr/bin/node
-// The script prints using arguments 
+// This script prints using arguments
 const ArgvLength = process.argv.length;
 
 if (ArgvLength < 3) {
