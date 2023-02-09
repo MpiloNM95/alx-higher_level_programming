@@ -1,22 +1,12 @@
 #!/usr/bin/node
-const argu = process.argv;
-const url = argu[2];
 const request = require('request');
-
-request(url, function (error, response, body) {
-  if (error) {
-    console.log(error);
-  } else {
-    let j = 0;
+request(process.argv[2], function (error, response, body) {
+  if (!error) {
     const results = JSON.parse(body).results;
-    for (let k = 0; k < results.length; k++) {
-      const chars = results[k].characters;
-      for (let i = 0; i < chars.length; i++) {
-	if (chars[i].includes('/18/')) {
-	  j++;
-	}
-      }
-    }
-    console.log(j);
+    console.log(results.reduce((count, movie) => {
+      return movie.characters.find((character) => character.endsWith('/18/'))
+	? count + 1
+	: count;
+    }, 0));
   }
 });
